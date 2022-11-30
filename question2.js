@@ -14,7 +14,7 @@ for(const prop in item){
   }
 }
 
-// returning the sum of prices
+// returning the sum of prices, sum of all prices
 const Values = Object.values(item);
 const sum = values.reduce((accumulator, value) => {
   return accumulator + value;
