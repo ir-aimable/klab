@@ -2,7 +2,7 @@ const item = [ {name: 'Bike', price:100}, {name: 'TV', price:200}, {name: 'Album
 
 // product that will be bought when you don't have much money
 function getSmallProduct() {
- let price=1000000;
+ let price=0;
  let name="";
   for (let i = 0; i < item.length; i++) {
     if (item[i].price <= price) {
